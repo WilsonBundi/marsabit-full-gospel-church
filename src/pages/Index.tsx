@@ -12,7 +12,7 @@ const Index = () => {
       title: "Sunday Worship Service",
       date: "Every Sunday",
       time: "7:00 AM - 1:00 PM",
-      location: "Main Sanctuary",
+      location: "Marsabit Full Gospel Church",
       description: "Join us for prayer, Bible study, praise and worship, testimonies, and the Word of God.",
       imageUrl: "https://images.unsplash.com/photo-1466442929976-97f336a657be",
     },
@@ -20,7 +20,7 @@ const Index = () => {
       title: "Weekly Bible Study",
       date: "Every Wednesday",
       time: "5:30 PM - 7:00 PM",
-      location: "Fellowship Hall",
+      location: "Marsabit Full Gospel Church",
       description: "Men fellowship and diving deeper into God's Word with our community.",
       imageUrl: "https://images.unsplash.com/photo-1492321936769-b49830bc1d1e",
     },
@@ -28,7 +28,7 @@ const Index = () => {
       title: "Youth Fellowship",
       date: "Every Saturday",
       time: "4:00 PM - 6:00 PM",
-      location: "Youth Center",
+      location: "Marsabit Full Gospel Church",
       description: "A time for young people to connect, grow, and participate in church cleaning.",
       imageUrl: "https://images.unsplash.com/photo-1551038247-3d9af20df552",
     }
@@ -38,19 +38,19 @@ const Index = () => {
   const announcements = [
     {
       id: 1,
-      title: "Easter Sunday Service",
-      content: "Join us for a special Easter celebration next Sunday at 9:00 AM.",
+      title: "Sunday Service",
+      content: "Join us for our service next Sunday at 9:00 AM.",
       imageUrl: "https://images.unsplash.com/photo-1473177104440-ffee2f376098",
     },
     {
       id: 2,
       title: "Choir Practice",
-      content: "All choir members are requested to attend practice on Saturday at 2:00 PM.",
+      content: "All choir members are requested to attend practice on Sunday at 2:00 PM.",
     },
     {
       id: 3,
       title: "Community Outreach",
-      content: "We'll be visiting the local children's home next Saturday. All are welcome to join.",
+      content: "We'll be having a meeting after the service. All are welcome to join.",
       imageUrl: "https://images.unsplash.com/photo-1494891848038-7bd202a2afeb",
     }
   ];
@@ -82,7 +82,7 @@ const Index = () => {
         </div>
         
         <div className="container-custom relative z-10 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">Welcome to Marsabit Full Gospel Churches</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">Welcome to Marsabit Full Gospel Church</h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto animate-fade-in">
             Join us in worship, fellowship, and community as we grow together in faith.
           </p>
@@ -255,12 +255,12 @@ const Index = () => {
               <div className="aspect-square bg-gray-200 flex items-center justify-center">
                 <img 
                   src="https://images.unsplash.com/photo-1551038247-3d9af20df552" 
-                  alt="Chairman Mwirigi" 
+                  alt="Chairperson Mr. Mwirigi" 
                   className="object-cover w-full h-full"
                 />
               </div>
               <div className="p-6 text-center">
-                <h3 className="text-xl font-bold mb-1">Chairman Mwirigi</h3>
+                <h3 className="text-xl font-bold mb-1">Chairperson Mr. Mwirigi</h3>
                 <p className="text-primary font-medium mb-3">Church Chairman</p>
                 <p className="text-muted-foreground">Overseeing church operations and administration.</p>
               </div>
